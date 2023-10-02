@@ -1,0 +1,39 @@
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+
+.user-item {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #555;
+    text-align: center;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+
+.user-item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+
+.user-item p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.user-item p:last-child {
+    font-style: italic;
+    font-size: 14px;
+}
